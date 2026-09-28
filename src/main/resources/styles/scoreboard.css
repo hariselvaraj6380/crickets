@@ -1,0 +1,242 @@
+/* Sleek Dark Scoreboard Theme with Glassmorphism & Neon Accents */
+
+.root {
+    -fx-font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    -fx-background-color: #0f172a;
+    -fx-text-fill: #f8fafc;
+}
+
+/* Glassmorphic Panel Cards */
+.card-panel {
+    -fx-background-color: rgba(30, 41, 59, 0.85);
+    -fx-background-radius: 14px;
+    -fx-border-color: rgba(255, 255, 255, 0.08);
+    -fx-border-radius: 14px;
+    -fx-border-width: 1px;
+    -fx-padding: 16px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.4), 12, 0, 0, 4);
+}
+
+.card-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #94a3b8;
+    -fx-letter-spacing: 1.2px;
+}
+
+/* Header & Big Score Text */
+.match-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f8fafc;
+}
+
+.status-badge {
+    -fx-background-color: #0284c7;
+    -fx-background-radius: 20px;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-padding: 4px 12px;
+}
+
+.score-main-text {
+    -fx-font-size: 52px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #38bdf8;
+    -fx-effect: dropshadow(gaussian, rgba(56, 189, 248, 0.35), 15, 0.2, 0, 0);
+}
+
+.overs-text {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #cbd5e1;
+}
+
+.runrate-label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #a855f7;
+    -fx-background-color: rgba(168, 85, 247, 0.15);
+    -fx-background-radius: 8px;
+    -fx-padding: 4px 10px;
+}
+
+.target-label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f59e0b;
+    -fx-background-color: rgba(245, 158, 11, 0.15);
+    -fx-background-radius: 8px;
+    -fx-padding: 4px 10px;
+}
+
+/* Player Statistics Table Styling */
+.stats-header {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #64748b;
+}
+
+.player-name-striker {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4ade80;
+}
+
+.player-name-normal {
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #e2e8f0;
+}
+
+.stat-value {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f8fafc;
+}
+
+.stat-subtext {
+    -fx-font-size: 12px;
+    -fx-text-fill: #94a3b8;
+}
+
+/* Over-Strip Chips */
+.over-chip {
+    -fx-background-radius: 50%;
+    -fx-min-width: 34px;
+    -fx-min-height: 34px;
+    -fx-max-width: 34px;
+    -fx-max-height: 34px;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+}
+
+.chip-dot {
+    -fx-background-color: #334155;
+    -fx-text-fill: #94a3b8;
+}
+
+.chip-run {
+    -fx-background-color: #0284c7;
+}
+
+.chip-four {
+    -fx-background-color: #10b981;
+    -fx-effect: dropshadow(gaussian, rgba(16, 185, 129, 0.6), 8, 0, 0, 0);
+}
+
+.chip-six {
+    -fx-background-color: #8b5cf6;
+    -fx-effect: dropshadow(gaussian, rgba(139, 92, 246, 0.7), 10, 0, 0, 0);
+}
+
+.chip-wicket {
+    -fx-background-color: #ef4444;
+    -fx-effect: dropshadow(gaussian, rgba(239, 68, 68, 0.8), 10, 0, 0, 0);
+}
+
+.chip-extra {
+    -fx-background-color: #f59e0b;
+}
+
+/* Prediction Panel */
+.prediction-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #38bdf8;
+}
+
+.projected-val {
+    -fx-font-size: 32px;
+    -fx-font-weight: 900;
+    -fx-text-fill: #facc15;
+}
+
+.prediction-explanation {
+    -fx-background-color: rgba(15, 23, 42, 0.8);
+    -fx-border-color: #3b82f6;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 14px;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #93c5fd;
+}
+
+/* Win Probability Bar */
+.win-bar-batting {
+    -fx-background-color: linear-gradient(to right, #0284c7, #38bdf8);
+    -fx-background-radius: 6px 0 0 6px;
+}
+
+.win-bar-bowling {
+    -fx-background-color: linear-gradient(to right, #e11d48, #fb7185);
+    -fx-background-radius: 0 6px 6px 0;
+}
+
+/* Controls & Buttons */
+.action-btn {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-background-radius: 8px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+}
+
+.action-btn:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.boundary-btn {
+    -fx-background-color: #059669;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.boundary-btn:hover {
+    -fx-background-color: #047857;
+}
+
+.wicket-btn {
+    -fx-background-color: #dc2626;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.wicket-btn:hover {
+    -fx-background-color: #b91c1c;
+}
+
+.secondary-btn {
+    -fx-background-color: #475569;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+}
+
+.secondary-btn:hover {
+    -fx-background-color: #334155;
+}
+
+/* Commentary Feed */
+.commentary-list {
+    -fx-background-color: transparent;
+}
+
+.commentary-item {
+    -fx-background-color: rgba(30, 41, 59, 0.5);
+    -fx-background-radius: 6px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 12px;
+    -fx-text-fill: #cbd5e1;
+}
